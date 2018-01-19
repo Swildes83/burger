@@ -1,0 +1,83 @@
+html {
+    background-color: rgb(66, 59, 47);
+}
+
+body {
+    width: 75%;
+   margin: 0 auto; 
+
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Joti One', cursive;
+    font-size: 65px;
+    margin: 50px;
+}
+
+.burgerAvailable {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+    border-radius: 25px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #0b4dc7;
+    border: none;
+}
+
+.burgerAvailable:hover {
+    background-color: #81ff94;
+}
+
+.burgerEaten {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #c2341e;
+}
+
+h2 {
+     text-align: center;
+     font-family: 'Joti One', cursive;
+    font-size: 40px;
+    margin: 50px;
+}
+
+.formContainer {
+    background-color: orange;
+}
+
+.addBurgerButton {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(66, 59, 47);
+    border: none;
+}
+
+.addBurgerButton:active {
+   background-color: rgb(66, 59, 47);
+}
+
+#evil_burger {
+    display: block;
+   margin: auto;
+}
