@@ -1,4 +1,4 @@
-# burger
+# Burger
 Logs burgers with MySQL, Node, Express, Handlebars and  ORM
 # Eat Da Burger!
 An application for eating burgers with Node.js/Express/MySQL/Handlebars/Materialize
